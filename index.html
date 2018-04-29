@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TA Igor e Bernardo</title>
+    <h1>Video / Audio player</h1>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <input type="file" accept="audio/*,video/*">
+    <button id="confirmar">Confirmar</button><br>
+    <audio controls class="player" src=""></audio>
+    <video controls class="player" src=""></video>
+    <div>
+        <p id="txt1">Playback Speed <span id="playspeed"></span></p>
+        <button id="desacelerar">desacelerar</button><span>    </span><button id="acelerar">acelerar</button>
+        <span>    </span><button id="reset">resetar</button>
+        <p id="txt2">Skip</p>
+        <button id="back">voltar 10s</button><span>    </span><button id="skip">pular 10s</button>
+        <span>    </span><button id="start">início</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
